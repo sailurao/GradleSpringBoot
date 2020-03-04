@@ -38,7 +38,7 @@ class DemoApplicationTests {
                 .then()
                 .assertThat()
                 .statusCode(200)
-                .body("name", Matchers.equalTo("Murali"));
+                .body("name", Matchers.equalTo("Rama"));
 
     }
 
